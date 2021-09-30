@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html {
+  box-sizing: border-box;
+  font-family: Lato;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section {
+  height: 150px;
+  width: 400px;
+  border: 1px solid #2d2d2d;
+ margin-bottom: 12px;
+}
+
+.div {
+  color: #fff;
+  background: #2d2d2d;
+  padding: 12px;
+}
+
+/* centering with CSS Grid */
+.column-center {
+  display: grid;
+  justify-content: center;
+  gap: 4px;
+  align-content: center;
+  grid-auto-flow: column;
+}
+
+
+
+.center-center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.container { 
+  position: relative;; 
+}
+
+    </style>
+    <title>Express API - JWT</title>
+</head>
+<body>
+
+    <div class="center-center">
+    <section class="column-center">
+        <div class="div">REST</div>
+        <div class="div">API</div>
+        <div class="div">EXPRESS</div>
+    </section>
+
+</div>
+    
+</body>
+</html>

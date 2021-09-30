@@ -1,0 +1,43 @@
+### list
+GET http://localhost:3000/api/users/
+
+### deactivated
+GET http://localhost:3000/api/users/deactivated/
+
+### getOne
+GET http://localhost:3000/api/users/6154bebbf459a0cc95576b41
+
+### Create
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "username": "Martin",
+    "email": "mbarbaste@gmail.com",
+    "password": "123456"
+}
+
+### LOGIN
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "email": "mbarbaste@correo.com",
+    "password": "123456"
+}
+
+### Update
+PUT http://localhost:3000/api/users/6154bcea019528623ee7cfba
+Content-Type: application/json
+
+{
+    "username": "Martin Barbaste"
+}
+
+###
+
+### DELETE - Deactivate
+DELETE http://localhost:3000/api/users/6154bebbf459a0cc95576b41
+
+### Activate
+DELETE http://localhost:3000/api/users/activate/6154bebbf459a0cc95576b41
