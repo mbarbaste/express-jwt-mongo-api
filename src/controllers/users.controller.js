@@ -95,7 +95,7 @@ exports.login = async (req, res) => {
                         expiresIn:"1h"
                     }
 
-                    const JWT_SECRET = "palabra-secreta"
+                    const JWT_SECRET = process.env.JWT_SECRET
 
                     const token = await jwt.sign({_id, username, email, email}, JWT_SECRET, options)
 

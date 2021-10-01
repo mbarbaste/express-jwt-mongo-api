@@ -1,14 +1,13 @@
 {
   "name": "express-jwt-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express API with JWT (mongo db)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Martin Barbaste",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",

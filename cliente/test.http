@@ -1,6 +1,6 @@
 ### list
 GET http://localhost:3000/api/users/
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU0ZDBmMGY1YzdiNDgyYmQyNjkwODgiLCJ1c2VybmFtZSI6Ik1hcnRpbiIsImVtYWlsIjoibWJhcmJhc3RlQGNvcnJlby5jb20iLCJpYXQiOjE2MzMxMTgxNDMsImV4cCI6MTYzMzEyMTc0M30.ibaDv0ytlZBHQlGAys-xSa4XXagq-jKVTAtlwmn0SEI
 ### deactivated
 GET http://localhost:3000/api/users/deactivated/
 
@@ -37,7 +37,7 @@ Content-Type: application/json
 ###
 
 ### DELETE - Deactivate
-DELETE http://localhost:3000/api/users/6154bebbf459a0cc95576b41
+DELETE http://localhost:3000/api/users/6154bcea019528623ee7cfba
 
 ### Activate
-DELETE http://localhost:3000/api/users/activate/6154bebbf459a0cc95576b41
+DELETE http://localhost:3000/api/users/activate/6154bcea019528623ee7cfba
